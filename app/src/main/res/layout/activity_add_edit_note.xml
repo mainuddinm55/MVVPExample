@@ -9,11 +9,11 @@
     tools:context=".AddEditNoteActivity">
 
     <com.rengwuxian.materialedittext.MaterialEditText
-        android:id="@+id/old_password_edit_text"
+        android:id="@+id/edit_text_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/title_text"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:text=""
         android:textColor="@color/textColor"
         android:textColorHint="@color/textColor"
@@ -24,11 +24,11 @@
         app:met_singleLineEllipsis="true" />
 
     <com.rengwuxian.materialedittext.MaterialEditText
-        android:id="@+id/new_password_edit_text"
+        android:id="@+id/edit_text_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/description_text"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:text=""
         android:textColor="@color/textColor"
         android:textColorHint="@color/textColor"
